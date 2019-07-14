@@ -1,1 +1,0 @@
-# stardist_pytorch
