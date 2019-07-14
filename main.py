@@ -9,7 +9,6 @@ from distance_loss import MyL1BCELoss
 import dataloader
 
 IN_CHANNELS = 1
-TRAIN = True
 LOAD_CHECKPOINT = False
 DSB2018_PATH = '<Specify path to DSB2018 dataset directory>'
 LOG_DIRECTORY = '<Specify path to tensorboard log directory>'
