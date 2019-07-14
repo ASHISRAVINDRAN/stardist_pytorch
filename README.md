@@ -13,3 +13,6 @@ Optional: [TensorboardX](https://github.com/lanpa/tensorboardX)
 
 ### Evaluation
 The performance of the model was evaluated on DSB2018 data set.
+
+### Notes
+UNet code adapted from here: https://github.com/milesial/Pytorch-UNet
