@@ -22,6 +22,19 @@ Optional: [TensorboardX](https://github.com/lanpa/tensorboardX)
 
 ### Evaluation
 The performance of the model was evaluated on DSB2018 data set.
+The table shows average precision for several IoU thresholds when probability threshold was 0.4, calculated by `metric.py` script.
+  
+| IoU threshold | Keras | Pytorch |
+|------|--------|---------|
+| 0.5 | 0.873 | 0.8698 |
+| 0.55 | 0.85 | 0.844 |
+| 0.6 | 0.8203 | 0.8078 |
+| 0.65 | 0.7612 | 0.7558 |
+| 0.7 | 0.6951 | 0.7128 |
+| 0.75 | 0.5980 | 0.6336 |
+| 0.8 | 0.4770 | 0.5100 |
+| 0.85 | 0.3364 | 0.3713 |
+| 0.9 | 0.1880 | 0.1932 |  
 
 ### Notes
 UNet code adapted from: https://github.com/milesial/Pytorch-UNet
