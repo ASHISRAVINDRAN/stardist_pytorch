@@ -52,7 +52,7 @@ def calculateAPScore(prediction,target,nThreads=5,IOU_tau=0.5):
                     tInstance.matched_instance = pInst.instID
                     break
         
-        pool = ThreadPool(5)
+        pool = ThreadPool(nThreads)
         pool.map(checkIOUMatch, pred_inst_list)
         pool.close()
         pool.join()
